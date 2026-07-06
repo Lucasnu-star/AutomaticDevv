@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "benefits": "Benefits",
+    "portfolio": "Portfolio",
+    "process": "How we work",
+    "contact": "Contact",
+    "contactCta": "Contact us"
+  },
+  "hero": {
+    "eyebrow": "AI · Automation · Results",
+    "title": "Automate today.",
+    "titleHighlight": "Transform your business.",
+    "subtitle": "We combine artificial intelligence, process automation and high-impact websites so your company saves time, cuts down errors and sells more.",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "ctaPortfolio": "See projects",
+    "whatsappMessage": "Hi! I'd like to know more about automations and websites."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Our services",
+    "subtitle": "Two ways to take your business to the next level.",
+    "automation": {
+      "tag": "AI Automation",
+      "title": "Artificial Intelligence Automations",
+      "description": "We remove repetitive tasks and connect your tools so everything runs on its own.",
+      "items": [
+        "Chatbots and automatic replies on WhatsApp",
+        "Smart workflows between your apps",
+        "Integrations with CRMs, spreadsheets and management systems",
+        "Automated sales, bookings and customer follow-up"
+      ]
+    },
+    "web": {
+      "tag": "Web Development",
+      "title": "Professional website creation",
+      "description": "Fast, modern sites built to turn visits into customers.",
+      "items": [
+        "Custom design, 100% responsive",
+        "SEO optimization from day one",
+        "Simple admin panels made for you",
+        "Integration with WhatsApp, social media and payments"
+      ]
+    }
+  },
+  "benefits": {
+    "eyebrow": "Benefits",
+    "title": "Why automate with us?",
+    "subtitle": "Concrete results from the very first month.",
+    "items": [
+      {
+        "title": "More productivity",
+        "description": "Your team focuses on what matters while AI handles the repetitive work."
+      },
+      {
+        "title": "Fewer errors",
+        "description": "Automated processes that remove human mistakes and make everything more reliable."
+      },
+      {
+        "title": "Time savings",
+        "description": "Get hours back every week to invest in growing your business."
+      },
+      {
+        "title": "Consistent results",
+        "description": "Systems that work 24/7, every day, with no pauses or excuses."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Our projects",
+    "subtitle": "Automations and sites that are already up and running.",
+    "filters": {
+      "all": "All",
+      "automation": "Automation",
+      "web": "Web"
+    },
+    "empty": "No projects in this category yet.",
+    "viewProject": "View project"
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "How we work",
+    "subtitle": "A simple, transparent process from start to finish.",
+    "steps": [
+      {
+        "title": "Diagnosis",
+        "description": "We analyze your business and find what can be automated or improved."
+      },
+      {
+        "title": "Proposal",
+        "description": "We present a clear solution, with defined scope and timeline."
+      },
+      {
+        "title": "Development",
+        "description": "We build and integrate the automation or website step by step."
+      },
+      {
+        "title": "Launch & support",
+        "description": "We roll everything out and stay with you to keep it running."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Tell us what you need and we'll get back to you shortly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Tell us your idea",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "Something went wrong. Try again or message us on WhatsApp."
+    },
+    "or": "or reach us directly",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "tagline": "AI, automation and web development to grow your business.",
+    "rights": "All rights reserved.",
+    "admin": "Admin panel"
+  }
+}

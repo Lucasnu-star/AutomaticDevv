@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "benefits": "Beneficios",
+    "portfolio": "Portfolio",
+    "process": "Cómo trabajamos",
+    "contact": "Contacto",
+    "contactCta": "Contactar"
+  },
+  "hero": {
+    "eyebrow": "IA · Automatizaciones · Resultados",
+    "title": "Automatizá hoy.",
+    "titleHighlight": "Transformá tu negocio.",
+    "subtitle": "Combinamos inteligencia artificial, automatización de procesos y páginas web de alto impacto para que tu empresa gane tiempo, reduzca errores y venda más.",
+    "ctaWhatsapp": "Escribinos por WhatsApp",
+    "ctaPortfolio": "Ver proyectos",
+    "whatsappMessage": "¡Hola! Quiero saber más sobre automatizaciones y páginas web."
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Nuestros servicios",
+    "subtitle": "Dos formas de llevar tu negocio al siguiente nivel.",
+    "automation": {
+      "tag": "Automatización con IA",
+      "title": "Automatizaciones con Inteligencia Artificial",
+      "description": "Eliminamos tareas repetitivas y conectamos tus herramientas para que todo funcione solo.",
+      "items": [
+        "Chatbots y respuestas automáticas en WhatsApp",
+        "Flujos de trabajo inteligentes entre tus apps",
+        "Integraciones con CRM, planillas y sistemas de gestión",
+        "Automatización de ventas, turnos y seguimiento de clientes"
+      ]
+    },
+    "web": {
+      "tag": "Desarrollo Web",
+      "title": "Creación de páginas web profesionales",
+      "description": "Sitios rápidos, modernos y pensados para convertir visitas en clientes.",
+      "items": [
+        "Diseño a medida, 100% responsive",
+        "Optimización SEO desde el primer día",
+        "Paneles de administración simples para vos",
+        "Integración con WhatsApp, redes y pagos"
+      ]
+    }
+  },
+  "benefits": {
+    "eyebrow": "Beneficios",
+    "title": "¿Por qué automatizar con nosotros?",
+    "subtitle": "Resultados concretos desde el primer mes.",
+    "items": [
+      {
+        "title": "Más productividad",
+        "description": "Tu equipo se enfoca en lo importante mientras la IA hace el trabajo repetitivo."
+      },
+      {
+        "title": "Menos errores",
+        "description": "Procesos automáticos que eliminan fallas humanas y hacen todo más confiable."
+      },
+      {
+        "title": "Ahorro de tiempo",
+        "description": "Recuperá horas cada semana para invertirlas en hacer crecer tu negocio."
+      },
+      {
+        "title": "Resultados constantes",
+        "description": "Sistemas que trabajan las 24 horas, todos los días, sin pausas ni excusas."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Nuestros proyectos",
+    "subtitle": "Automatizaciones y sitios que ya están funcionando.",
+    "filters": {
+      "all": "Todos",
+      "automation": "Automatización",
+      "web": "Web"
+    },
+    "empty": "Todavía no hay proyectos cargados en esta categoría.",
+    "viewProject": "Ver proyecto"
+  },
+  "process": {
+    "eyebrow": "Proceso",
+    "title": "Cómo trabajamos",
+    "subtitle": "Un proceso simple y transparente, de principio a fin.",
+    "steps": [
+      {
+        "title": "Diagnóstico",
+        "description": "Analizamos tu negocio y detectamos qué se puede automatizar o mejorar."
+      },
+      {
+        "title": "Propuesta",
+        "description": "Te presentamos una solución clara, con alcance y tiempos definidos."
+      },
+      {
+        "title": "Desarrollo",
+        "description": "Construimos e integramos la automatización o el sitio web paso a paso."
+      },
+      {
+        "title": "Lanzamiento y soporte",
+        "description": "Ponemos todo en marcha y te acompañamos para que siga funcionando."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu proyecto",
+    "subtitle": "Contanos qué necesitás y te respondemos a la brevedad.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Contanos tu idea",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te vamos a responder pronto.",
+      "error": "Algo salió mal. Probá de nuevo o escribinos por WhatsApp."
+    },
+    "or": "o escribinos directamente",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "tagline": "IA, automatizaciones y desarrollo web para hacer crecer tu negocio.",
+    "rights": "Todos los derechos reservados.",
+    "admin": "Panel admin"
+  }
+}
