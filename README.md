@@ -58,11 +58,13 @@ Creá un repo en GitHub y pusheá.
 
 ### 3. Crear la base de datos en Neon
 
-1. En el dashboard de Vercel: **Storage → Create Database → Neon (Postgres)**. Esto crea la base y conecta las variables automáticamente al proyecto.
+1. En el dashboard de Vercel: **Storage → Create Database → Neon (Postgres)**. Esto crea la base y conecta las variables automáticamente al proyecto — no hay que copiar ni renombrar nada.
    - Alternativa: crear la base directo en [neon.tech](https://neon.tech) y copiar las connection strings a mano.
-2. Neon te da dos connection strings: una **pooled** y una **direct**. Usalas así:
-   - `DATABASE_URL` → la *pooled* (para las queries normales de la app)
-   - `DIRECT_URL` → la *direct* (para correr las migraciones)
+2. La integración crea, entre otras, dos variables que usa el proyecto directamente:
+   - `DATABASE_URL` → connection string *pooled* (para las queries normales de la app)
+   - `DATABASE_URL_UNPOOLED` → connection string *directa* (para correr las migraciones)
+
+   El resto de las variables que agrega Neon (`PGHOST`, `POSTGRES_*`, etc.) no se usan y se pueden ignorar.
 
 ### 4. Crear el Blob Store (imágenes)
 
