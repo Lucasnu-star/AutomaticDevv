@@ -42,13 +42,22 @@ export async function sendContactMessage(
 
   try {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    await resend.emails.send({
-      from: "AutomaticDev <onboarding@resend.dev>",
+    const { error } = await resend.emails.send({
+      from: "AutomaticDev <contacto@automaticdev.cloud>",
       to: process.env.CONTACT_TO_EMAIL!,
       replyTo: email,
       subject: `Nuevo mensaje de ${name} - AutomaticDev`,
       text: `Nombre: ${name}\nEmail: ${email}\n\n${message}`,
     });
+
+    if (error) {
+      console.error("Resend devolvió un error al enviar el email", error);
+      return {
+        status: "error",
+        message:
+          "Guardamos tu mensaje pero no pudimos enviarte la confirmación. Igual te vamos a contactar, o escribinos por WhatsApp.",
+      };
+    }
   } catch (err) {
     console.error("No se pudo enviar el email de contacto", err);
     return {

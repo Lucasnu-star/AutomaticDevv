@@ -115,9 +115,14 @@ O más simple para arrancar: `npx prisma db push` (crea las tablas directamente 
 2. Vercel te va a mostrar los registros DNS (A/CNAME) que tenés que cargar donde compraste el dominio.
 3. Esperá la propagación (puede tardar hasta un par de horas) y listo.
 
-### 8. Verificar el sender de Resend (opcional pero recomendado)
+### 8. Verificar el dominio en Resend
 
-Por defecto los emails se mandan desde `onboarding@resend.dev`, que funciona sin configurar nada. Si más adelante querés que salgan desde tu propio dominio (ej. `contacto@automaticdev.cloud`), verificá el dominio en Resend y cambiá el `from` en `lib/actions/contact.ts`.
+El sender de prueba `onboarding@resend.dev` **solo puede enviar a la casilla con la que te registraste en Resend**, no a cualquier destinatario — por eso hay que verificar el dominio antes de usar el formulario de contacto en serio.
+
+1. En [resend.com/domains](https://resend.com/domains) → **Add Domain** → `automaticdev.cloud`.
+2. Cargá los registros DNS que te muestre (DKIM vía TXT, y el MX + TXT de SPF) en el mismo lugar donde cargaste los del dominio (Hostinger u otro).
+3. Una vez que propaguen, volvé a Resend y usá **"Verify DNS Records"**.
+4. El proyecto ya envía desde `contacto@automaticdev.cloud` (configurado en `lib/actions/contact.ts`) una vez verificado el dominio.
 
 ---
 
